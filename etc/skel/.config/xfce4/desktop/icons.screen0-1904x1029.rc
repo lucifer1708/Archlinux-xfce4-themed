@@ -1,19 +1,15 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[/home/lucifer/Desktop/archlinux-awesomewm-2022.01-x86_64.iso]
-row=3
-col=0
-
-[/home/lucifer]
-row=1
+[Trash]
+row=2
 col=0
 
 [/]
 row=0
 col=0
 
-[Trash]
-row=2
+[/home/live]
+row=1
 col=0
 

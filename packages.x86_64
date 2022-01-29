@@ -132,6 +132,9 @@ linux-headers
 mtpfs
 gvfs-mtp
 blueman
+starship
+neovim
+xclip
 
 #XFCE4 
 xfce4
@@ -153,10 +156,8 @@ ttf-unifont
 siji
 xorg-fonts-misc
 nerd-fonts-fantasque-sans-mono
-networkmanager-dmenu-git
 npm
 plank
-paru
 
 #Calamares Dependencies
 appstream-qt
@@ -185,3 +186,10 @@ boost
 grub
 calamares
 os-prober
+
+#nvidia
+nvidia
+nvidia-dkms
+nvidia-settings
+nvidia-utils
+nvidia-prime

@@ -622,24 +622,25 @@ colors:
 #   - Linear
 #
 # Specifying a `duration` of `0` will disable the visual bell.
-#visual_bell:
-#  animation: EaseOutExpo
-#  duration: 0
-#  color: '#ffffff'
+# visual_bell:
+#   animation: EaseOutExpo
+#   duration: 0.5
+#   color: '#ffffff'
 # Background opacity
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.65
-# background_opacity: 0.80
+window:
+  opacity: 0.7
+
 #selection:
 #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
 # When set to `true`, selected text will be copied to the primary clipboard.
 #save_to_clipboard: false
 # Allow terminal applications to change Alacritty's window title.
 #dynamic_title: true
-#cursor:
-#style: Beam
+cursor:
+  style: underline 
 # If this is `true`, the cursor will be rendered as a hollow box when the
 # window is not focused.
 #unfocused_hollow: true
@@ -654,10 +655,10 @@ background_opacity: 0.65
 #   - (macOS) /bin/bash --login
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
-shell: null
-program: /bin/zsh
-args:
-  - --login
+# shell: null
+# program: /bin/zsh
+# args:
+#   - --login
 
 # Startup directory
 #
@@ -883,4 +884,4 @@ key_bindings:
       action: ScrollToBottom,
       mode: ~Alt
     }
-theme: Argonaut
+theme: Dracula 
