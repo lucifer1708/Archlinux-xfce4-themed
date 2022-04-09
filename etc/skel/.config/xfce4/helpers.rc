@@ -1,1 +1,5 @@
-WebBrowser=google-chrome
+FileManager=Thunar
+TerminalEmulator=xfce4-terminal
+WebBrowser=firefox
+MailReader=evolution
+

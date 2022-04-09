@@ -36,7 +36,7 @@ Presentation
         Image
         {
             id: background1
-            source: "slide1.png"
+            source: "slide1.jpg"
             width: parent.width; height: parent.height
             horizontalAlignment: Image.AlignCenter
             verticalAlignment: Image.AlignTop
