@@ -105,7 +105,6 @@ ln -sf /usr/lib/systemd/system/plocate-updatedb.timer ./archreleng/airootfs/etc/
 
 # Copy files to customize the ISO
 cpmyfiles () {
-sudo chmod +x /etc/skel/.config/awesome/configuration/rofi/global/rofi-spotlight.sh
 cp packages.x86_64 ./archreleng/
 cp pacman.conf ./archreleng/
 cp profiledef.sh ./archreleng/

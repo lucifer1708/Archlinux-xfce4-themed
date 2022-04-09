@@ -32,7 +32,6 @@ gnu-netcat
 gpart
 gpm
 gptfdisk
-grml-zsh-config
 hdparm
 intel-ucode
 ipw2100-fw
@@ -89,8 +88,6 @@ udftools
 usb_modeswitch
 usbmuxd
 usbutils
-vim
-vim-plug
 vpnc
 wireless-regdb
 wireless_tools
@@ -118,14 +115,12 @@ network-manager-applet
 lightdm
 xf86-input-libinput
 lightdm-gtk-greeter
-
 alacritty
 neofetch
 xfce4-power-manager
 lxappearance
-firefox
+brave
 polkit
-acpilight
 acpi_call-dkms
 acpi
 linux-headers
@@ -135,11 +130,14 @@ blueman
 starship
 neovim
 xclip
+xarchiver
 
 #XFCE4 
 xfce4
 xfce4-goodies
 base-devel
+paru
+
 #icons & theme
 tela-circle-icon
 qogir-gtk-theme-git
@@ -157,7 +155,6 @@ siji
 xorg-fonts-misc
 nerd-fonts-fantasque-sans-mono
 npm
-plank
 
 #Calamares Dependencies
 appstream-qt
@@ -193,3 +190,4 @@ nvidia-dkms
 nvidia-settings
 nvidia-utils
 nvidia-prime
+opencl-nvidia
