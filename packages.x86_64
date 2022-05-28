@@ -135,6 +135,7 @@ xarchiver
 #XFCE4 
 xfce4
 xfce4-goodies
+ksuperkey
 base-devel
 paru
 
@@ -144,6 +145,7 @@ qogir-gtk-theme-git
 mcmojave-cursors
 xorg-mkfontscale
 xorg-bdftopcf
+vimix-cursors
 xorg-font-util
 
 #lockscreen
@@ -185,7 +187,6 @@ calamares
 os-prober
 
 #nvidia
-nvidia
 nvidia-dkms
 nvidia-settings
 nvidia-utils
