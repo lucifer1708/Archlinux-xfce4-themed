@@ -1,5 +1,5 @@
 favorites=thunar.desktop,xfce4-terminal.desktop
-recent=brave-browser.desktop,lightdm-gtk-greeter-settings.desktop,xfce-ui-settings.desktop,xfce-display-settings.desktop,xfce-keyboard-settings.desktop,xfce4-terminal-emulator.desktop,thunar.desktop,xfce-settings-manager.desktop
+recent=telegramdesktop.desktop,xfce-mouse-settings.desktop,spotify-adblock.desktop,xfce-session-settings.desktop,brave-browser.desktop,xfce-wm-settings.desktop,xfce-keyboard-settings.desktop,xfce-wmtweaks-settings.desktop,xfce-ui-settings.desktop,thunar.desktop
 button-title=\ \ \ 
 button-icon=/usr/share/backgrounds/arch.png
 button-single-row=false

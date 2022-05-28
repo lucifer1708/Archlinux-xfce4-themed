@@ -7,9 +7,13 @@
     <property name="show-tray-icon" type="bool" value="false"/>
     <property name="show-panel-label" type="int" value="1"/>
     <property name="show-presentation-indicator" type="bool" value="true"/>
-    <property name="power-button-action" type="uint" value="4"/>
+    <property name="power-button-action" type="uint" value="3"/>
     <property name="handle-brightness-keys" type="bool" value="true"/>
     <property name="general-notification" type="bool" value="true"/>
     <property name="critical-power-action" type="uint" value="3"/>
+    <property name="inactivity-sleep-mode-on-battery" type="uint" value="1"/>
+    <property name="lid-action-on-battery" type="uint" value="2"/>
+    <property name="logind-handle-lid-switch" type="bool" value="false"/>
+    <property name="presentation-mode" type="bool" value="false"/>
   </property>
 </channel>

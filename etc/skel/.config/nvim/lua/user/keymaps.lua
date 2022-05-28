@@ -74,8 +74,6 @@ keymap("n", "<A-q>", ":q!<CR>", opts)
 keymap("i", "<A-q>", "<Esc>:q!<CR>", opts)
 keymap("i", "<C-s>", "<Esc>:w<CR>a", opts)
 
-
 -- For Running the code using Sniprun
 keymap("n", "<A-R>", ":SnipRun<CR>", opts)
 keymap("v", "<A-R>", ":SnipRun<CR>", opts)
-

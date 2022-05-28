@@ -1,24 +1,36 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[/home/lucifer/Desktop/arch.jpg]
-row=7
+[/home/lucifer/Desktop/archlinux-xfce-edtion-2022.05-x86_64.iso]
+row=0
+col=1
+
+[/home/lucifer/Desktop/prody]
+row=6
+col=0
+
+[/home/lucifer/Desktop/SYLLABUS.pdf]
+row=1
+col=1
+
+[12EA3100EA30E221]
+row=4
 col=0
 
 [DCEC711BEC70F15E]
 row=3
 col=0
 
-[A460B8A760B8819A]
-row=6
+[POCO M2]
+row=7
 col=0
 
-[C230401230400FB9]
+[A460B8A760B8819A]
 row=5
 col=0
 
-[12EA3100EA30E221]
-row=4
+[2022-04-12-04-59-43-00]
+row=8
 col=0
 
 [Trash]

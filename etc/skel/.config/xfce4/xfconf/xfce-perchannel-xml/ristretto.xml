@@ -6,4 +6,7 @@
       <property name="position" type="string" value="left"/>
     </property>
   </property>
+  <property name="desktop" type="empty">
+    <property name="type" type="string" value="xfce"/>
+  </property>
 </channel>

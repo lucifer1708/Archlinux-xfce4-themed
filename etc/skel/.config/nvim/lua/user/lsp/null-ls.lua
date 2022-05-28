@@ -15,9 +15,9 @@ null_ls.setup({
 		-- formatting.black.with({ extra_args = { "--fast" } }),
 		formatting.autopep8,
 		formatting.eslint,
-		-- formatting.stylua,
+		formatting.stylua,
     diagnostics.flake8,
-    diagnostics.eslint,
+    -- diagnostics.eslint,
 	},
  -- you can reuse a shared lspconfig on_attach callback here
     -- on_attach = function(client)
