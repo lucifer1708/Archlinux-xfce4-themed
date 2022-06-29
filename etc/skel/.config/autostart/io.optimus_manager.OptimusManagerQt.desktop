@@ -12,3 +12,4 @@ Terminal=false
 StartupNotify=false
 Type=Application
 Categories=System;Settings;Qt;
+Hidden=false

@@ -69,11 +69,6 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  Colorschemes = {
-    loaded = true,
-    path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/Colorschemes",
-    url = "https://github.com/LunarVim/Colorschemes"
-  },
   ["FixCursorHold.nvim"] = {
     loaded = true,
     path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/FixCursorHold.nvim",
@@ -113,6 +108,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
+  },
+  ["cmp-vsnip"] = {
+    loaded = true,
+    path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/cmp-vsnip",
+    url = "https://github.com/hrsh7th/cmp-vsnip"
   },
   cmp_luasnip = {
     loaded = true,
@@ -210,6 +210,11 @@ _G.packer_plugins = {
     path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
+  ["onedarkpro.nvim"] = {
+    loaded = true,
+    path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/onedarkpro.nvim",
+    url = "https://github.com/olimorris/onedarkpro.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -245,6 +250,11 @@ _G.packer_plugins = {
     path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
   },
+  ["vim-aylin"] = {
+    loaded = true,
+    path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/vim-aylin",
+    url = "https://github.com/AhmedAbdulrahman/vim-aylin"
+  },
   ["vim-bbye"] = {
     loaded = true,
     path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/vim-bbye",
@@ -254,6 +264,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/vim-react-snippets",
     url = "https://github.com/mlaursen/vim-react-snippets"
+  },
+  ["vim-vsnip"] = {
+    loaded = true,
+    path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/vim-vsnip",
+    url = "https://github.com/hrsh7th/vim-vsnip"
   },
   ["which-key.nvim"] = {
     loaded = true,

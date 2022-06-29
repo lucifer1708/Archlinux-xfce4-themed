@@ -1,9 +1,10 @@
-vim.cmd [[
+vim.cmd([[
 try
-  colorscheme codemonkey
+  colorscheme onedarkpro
 catch /^Vim\%((\a\+)\)\=:E185/
-  colorscheme default
+   " colorscheme default
   set background=dark
+  highlight Normal guibg=black guifg=white
 endtry
-]]
+]])
 -- This is a comment

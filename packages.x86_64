@@ -192,3 +192,5 @@ nvidia-settings
 nvidia-utils
 nvidia-prime
 opencl-nvidia
+mangohud
+libxnvctrl
