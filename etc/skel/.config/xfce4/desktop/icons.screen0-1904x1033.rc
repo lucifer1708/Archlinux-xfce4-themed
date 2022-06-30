@@ -1,19 +1,19 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
+[2022-06-29-18-34-56-00]
+row=3
+col=0
+
+[A460B8A760B8819A]
+row=6
+col=0
+
 [12EA3100EA30E221]
 row=4
 col=0
 
 [DCEC711BEC70F15E]
-row=3
-col=0
-
-[2022-06-29-16-06-45-00]
-row=6
-col=0
-
-[A460B8A760B8819A]
 row=5
 col=0
 
@@ -22,10 +22,10 @@ row=2
 col=0
 
 [/]
-row=1
+row=0
 col=0
 
 [/home/lucifer]
-row=0
+row=1
 col=0
 
