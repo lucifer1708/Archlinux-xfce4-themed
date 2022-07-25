@@ -119,12 +119,6 @@ _G.packer_plugins = {
     path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  ["emmet-vim"] = {
-    loaded = true,
-    needs_bufread = false,
-    path = "/home/lucifer/.local/share/nvim/site/pack/packer/opt/emmet-vim",
-    url = "https://github.com/mattn/emmet-vim"
-  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -164,11 +158,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
     url = "https://github.com/windwp/nvim-autopairs"
-  },
-  ["nvim-base16.lua"] = {
-    loaded = true,
-    path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/nvim-base16.lua",
-    url = "https://github.com/NvChad/nvim-base16.lua"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -235,11 +224,6 @@ _G.packer_plugins = {
     path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/project.nvim",
     url = "https://github.com/ahmedkhalf/project.nvim"
   },
-  sniprun = {
-    loaded = true,
-    path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/sniprun",
-    url = "https://github.com/michaelb/sniprun"
-  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -250,20 +234,15 @@ _G.packer_plugins = {
     path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
   },
-  ["vim-aylin"] = {
+  ["tokyonight.nvim"] = {
     loaded = true,
-    path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/vim-aylin",
-    url = "https://github.com/AhmedAbdulrahman/vim-aylin"
+    path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
   },
   ["vim-bbye"] = {
     loaded = true,
     path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/vim-bbye",
     url = "https://github.com/moll/vim-bbye"
-  },
-  ["vim-react-snippets"] = {
-    loaded = true,
-    path = "/home/lucifer/.local/share/nvim/site/pack/packer/start/vim-react-snippets",
-    url = "https://github.com/mlaursen/vim-react-snippets"
   },
   ["vim-vsnip"] = {
     loaded = true,
@@ -278,13 +257,6 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Setup for: emmet-vim
-time([[Setup for emmet-vim]], true)
-try_loadstring("\27LJ\2\nz\0\0\2\0\6\0\t6\0\0\0009\0\1\0'\1\3\0=\1\2\0006\0\0\0009\0\1\0005\1\5\0=\1\4\0K\0\1\0\1\0\1\24indent_blockelement\3\1\24user_emmet_settings\n<c-m>\26user_emmet_leader_key\6g\bvim\0", "setup", "emmet-vim")
-time([[Setup for emmet-vim]], false)
-time([[packadd for emmet-vim]], true)
-vim.cmd [[packadd emmet-vim]]
-time([[packadd for emmet-vim]], false)
 if should_profile then save_profiles() end
 
 end)

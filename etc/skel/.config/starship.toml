@@ -1,10 +1,11 @@
 [battery]
 full_symbol = " 🔋"
 charging_symbol = " 🔌"
+disabled = true
 discharging_symbol = " ⚡"
 
 [[battery.display]]
-threshold = 100
+threshold = 100 
 style = "bold red"
 
 [character]
@@ -14,7 +15,7 @@ success_symbol = " [➤](bold red)"
 [directory]
 truncation_length = 5
 style = "bold italic white"
-format = "[$path]($style)[$lock_symbol]($lock_style) "
+format = "[in](bold red) [$path]($style)[$lock_symbol]($lock_style) "
 
 [git_branch]
 format = "[on](bold red) [$symbol$branch]($style) "
@@ -35,7 +36,7 @@ disabled =false
 
 [python]
 format = 'via [${symbol}${pyenv_prefix}(${version} )]($style)[(\($virtualenv\) )](bold red)'
-style = "bold green"
+style = "blue"
 
 [rust]
 format = "[$symbol$version]($style) "

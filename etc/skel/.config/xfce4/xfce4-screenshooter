@@ -1,5 +1,5 @@
 delay=1
-region=3
+region=1
 action=1
 show_mouse=1
 title=Arch Linux
@@ -7,7 +7,7 @@ timestamp=TRUE
 app=brave
 last_user=
 last_extension=jpg
-screenshot_dir=file:/home/lucifer/Pictures
+screenshot_dir=file:/home/lucifer/Pictures/ScreenShots
 enable_imgur_upload=true
 show_border=1
 
